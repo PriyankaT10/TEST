@@ -4,20 +4,22 @@
     <title>Priyanka Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
-    
+    <script type="text/javascript" src="function.js"></script>
 </head>
 <body>
     <!-- test -->
     <div class="login-box">
         <img src="userimg.png" class="user" >
         <h1>LOGIN HERE</h1>
-        <form>
+        <form name="userForm" method="post" >
             <p>
-                <input type="text" placeholder="Enter Your Name" required />
+                <input type="text" name="Username" placeholder="Enter Your Name">  
             </p>
-         <input type="submit" value="ENTER"  />
+         <input type="submit" value="SUBMIT" onclick= "validate()">
         </form>
     </div>
-    <script type="text/javascript" src="function.js"></script>
+    
 </body>
 </html>
+
+
