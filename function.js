@@ -9,9 +9,10 @@ function validate()
         alert("The feild is required");  
     }   
     else
-    {
-    	alert("HI, Welcome !");
-    }
+     {
+     window.alert("HI : "+ document.getElementById("Username").value  +"    WELCOME :-)");
+    	
+     }
 
 }
 
