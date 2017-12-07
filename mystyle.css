@@ -20,7 +20,7 @@ h1{
 }
 
     .login-box{
-	width:250px;
+	width:300px;
     height:300px;
     position:absolute;
     left:50%;
@@ -29,6 +29,7 @@ h1{
 	background-color:rgba(34,37,42,0.8);
 	padding:80px 20px 50px 20px;
 	text-align: center;
+	border: 10px solid black;
 
 }
 
@@ -62,8 +63,9 @@ h1{
 	background: #e8483c;
 	font-size:20px;
 	line-height: 7px;
-	/*transition: all 0.10s;*/
-	transition: opacity 0.3s ease-in-out;
+	transition: all 0.10s;
+
+	
 
 }
 
@@ -78,7 +80,8 @@ h1{
 
 }
 
-@media screen and (min-width: 767px) {
-    .login-box{width: 300px;}
+@media screen and (max-width: 767px) {
+    .login-box{width: 250px;height: 250px; margin: -200px 0 0 -155px;}
+
     
 }
