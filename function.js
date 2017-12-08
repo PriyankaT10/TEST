@@ -2,7 +2,7 @@
 function validate()
 {
 
-	var x = document.forms["userForm"]["Username"].value;
+	var x = document.getElementById("Username").value;
 
     if (x == "") 
     {
@@ -10,7 +10,7 @@ function validate()
     }   
     else
      {
-     window.alert("HI : "+ document.getElementById("Username").value  +"    WELCOME :-)");
+    	alert("HI : "+ x.toUpperCase() +"    WELCOME :-)");
     	
      }
 
